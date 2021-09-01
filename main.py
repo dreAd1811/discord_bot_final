@@ -36,9 +36,9 @@ from dotenv import load_dotenv
 from discord.ext import commands
 from praw.reddit import Subreddit
 
-load_dotenv()
 
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+
+DISCORD_TOKEN = ("DISCORD_TOKEN")
 
 
 def get_prefix(client, message):
